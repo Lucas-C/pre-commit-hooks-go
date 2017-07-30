@@ -1,9 +1,7 @@
 -   id: checkmake
     name: Makefile linter/analyzer
-    entry: checkmate
+    entry: checkmake
     language: golang
     additional_dependencies:
     -   github.com/mrtazz/checkmake
-    -   github.com/docopt/docopt-go
-    -   github.com/olekukonko/tablewriter
     files: Makefile

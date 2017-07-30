@@ -10,5 +10,5 @@ Currently **does not work under Cywgin**.
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-go
     sha: v1.0.0
     hooks:
-    -   id: checkmate
+    -   id: checkmake
 ```
