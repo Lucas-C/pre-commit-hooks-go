@@ -1,10 +1,8 @@
 Useful [pre-commit](http://pre-commit.com) hooks written in Go language.
 
-Currently **does not work under Cywgin**.
+Works well, **except currently under Cywgin**.
 
 ## Usage
-
-**WORK IN PROGRESS**
 
 ```
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-go
@@ -12,3 +10,12 @@ Currently **does not work under Cywgin**.
     hooks:
     -   id: checkmake
 ```
+
+## Development
+
+`checkmake.go` is simply a copy of `cmd/checkmake/main.go` in `mrtazz/checkmake`.
+
+To update it:
+
+    curl https://raw.githubusercontent.com/mrtazz/checkmake/master/cmd/checkmake/main.go -o checkmake.go
+
