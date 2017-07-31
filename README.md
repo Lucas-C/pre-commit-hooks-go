@@ -1,5 +1,7 @@
 Useful [pre-commit](http://pre-commit.com) hooks written in Go language.
 
+Currently it only includes [mrtazz Makefile linter](https://github.com/mrtazz/checkmake).
+
 Requires that you have `go` installed.
 
 ## Usage
@@ -13,7 +15,7 @@ Requires that you have `go` installed.
 
 ## Development
 
-`checkmake.go` is simply a copy of `cmd/checkmake/main.go` in `mrtazz/checkmake`.
+`checkmake.go` is simply a copy of `cmd/checkmake/main.go` in https://github.com/mrtazz/checkmake.
 
 To update it:
 
