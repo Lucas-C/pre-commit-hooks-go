@@ -1,6 +1,6 @@
 Useful [pre-commit](http://pre-commit.com) hooks written in Go language.
 
-Works well, **except currently under Cywgin**.
+Requires that you have `go` installed.
 
 ## Usage
 
