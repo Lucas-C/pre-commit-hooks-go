@@ -8,7 +8,7 @@ Requires that you have `go` installed.
 
 ```
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-go
-    rev: v1.0.0
+    rev: v1.0.1
     hooks:
     -   id: checkmake
 ```
